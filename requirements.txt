@@ -1,0 +1,7 @@
+Flask
+flask-cors
+SpeechRecognition
+gTTS
+pygame
+pyaudio
+groq

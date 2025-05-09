@@ -1,0 +1,20 @@
+{
+  "manifest_version": 3,
+  "name": "Auto URL Tracker",
+  "version": "1.0",
+  "description": "Automatically tracks URLs and communicates with local server",
+  "permissions": [
+    "activeTab",
+    "scripting",
+    "storage",
+    "tabs"
+  ],
+  "host_permissions": [
+    "http://localhost:5000/*",
+    "<all_urls>"
+  ],
+  "background": {
+    "service_worker": "background.js",
+    "type": "module"
+  }
+}

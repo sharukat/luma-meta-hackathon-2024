@@ -1,0 +1,8 @@
+<<<<<<< HEAD
+env/
+.env
+=======
+\venv
+>>>>>>> Elmira_ext
+__pycache__
+*.log

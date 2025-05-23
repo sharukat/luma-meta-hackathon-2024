@@ -24,8 +24,35 @@ By integrating a transformer-based web scraper, the **Llama 3.1-8B** model, and 
    ```
 2. **Install Python dependencies**
    ```bash
-   pip install -r requirements.txt
+   pip install -r requirements.txt -r rag/requirements.txt
    ```
+3. **Run Flask Server**
+   ```bash
+   cd rag
+   export FLASK_APP=main.py       # Use 'set FLASK_APP=main.py' on Windows
+   flask run
+   ```
+4. **Running the Speech Assistant**
+   ```bash
+   python speech_tasks/speech.py
+   ```
+5. **Start Voice Assistant Server**
+   ```bash
+   python server.py
+   ```
+6. **Load the Chrome Extension**
+	- Open Chrome and go to: chrome://extensions
+	- Enable Developer Mode (top right)
+	- Click “Load unpacked”
+	- Select the url_server directory (contains manifest.json, popup.js, etc.)
+7. **Using the Extension**
+   1.	Click the extension icon in your Chrome toolbar
+	2.	The extension:
+	   - Displays the current URL
+	   - Extracts all links on the current page
+	   - Sends this data to your running Flask server (/process-links)
+	3.	If the voice assistant is active, say “Hey Vista” to start interaction
+   
 
 
 ## 💻 Technology Stack

@@ -59,7 +59,7 @@ By integrating a transformer-based web scraper, the **Llama 3.1-8B** model, and 
 <p align="center">
   <a href="https://go-skill-icons.vercel.app/">
     <img
-      src="https://go-skill-icons.vercel.app/api/icons?i=python,javascript,fask,langchain,ollama,git"
+      src="https://go-skill-icons.vercel.app/api/icons?i=python,javascript,flask,langchain,ollama,git"
     />
   </a>
 </p>

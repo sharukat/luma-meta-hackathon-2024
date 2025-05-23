@@ -41,17 +41,17 @@ By integrating a transformer-based web scraper, the **Llama 3.1-8B** model, and 
    python server.py
    ```
 6. **Load the Chrome Extension**
-	- Open Chrome and go to: chrome://extensions
+	- Open Chrome and go to: ```chrome://extensions```
 	- Enable Developer Mode (top right)
-	- Click “Load unpacked”
-	- Select the url_server directory (contains manifest.json, popup.js, etc.)
+	- Click **“Load unpacked”**
+	- Select the url_server directory (contains ```manifest.json```, ```popup.js```, etc.)
 7. **Using the Extension**
-   1.	Click the extension icon in your Chrome toolbar
-	2.	The extension:
-	   - Displays the current URL
-	   - Extracts all links on the current page
-	   - Sends this data to your running Flask server (/process-links)
-	3.	If the voice assistant is active, say “Hey Vista” to start interaction
+    1. Click the extension icon in your Chrome toolbar.
+    2. The extension:
+        - Displays the current URL.
+        - Extracts all links on the current page.
+        - Sends this data to your running Flask server (`/process-links`).
+    3. If the voice assistant is active, say **“Hey Vista”** to start interaction.
    
 
 
@@ -64,3 +64,6 @@ By integrating a transformer-based web scraper, the **Llama 3.1-8B** model, and 
   </a>
 </p>
 <p align="center">
+
+## 👏 Contributing
+I would love your help! Contribute by forking the repo and opening pull requests.
